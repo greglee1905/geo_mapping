@@ -28,6 +28,8 @@ requirements: test_environment
 	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 
+		@echo "please download r tree with: "
+		@echo "pip install "rtree>=0.8,<0.9""   
 		@echo "please activate jupyter notebook" 
 
 ## Set up python interpreter environment
